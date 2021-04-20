@@ -1,0 +1,8 @@
+				/*Background image for all webpages */
+				
+				body{
+					background-image:url("dog1.png");
+					background-size:100%;
+					background-repeat: no-repeat;
+					background-attachment: fixed;	
+				}				
