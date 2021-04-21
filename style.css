@@ -4,7 +4,8 @@
 					background-image:url("dog1.png");
 					background-size:100%;
 					background-repeat: no-repeat;
-					background-attachment: fixed;	
+					background-attachment: fixed;
+					font-family:'Lato', sans-serif;
 				}	
 
 #navigation {
@@ -50,3 +51,8 @@
 #navigation a:active{
 	background-color: #4CAF50;
 }			
+=======
+					background-attachment: fixed;
+					font-family: 'Lato', sans-serif;	
+				}				
+>>>>>>> 63ac787696c471f3664b7449ab75912959a97288
