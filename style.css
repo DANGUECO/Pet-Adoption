@@ -1,12 +1,57 @@
+
 				/*Background image for all webpages */
-				
 				body{
-					background-image:url("dog1.png");
+					background-image:url("dogdark.png");
 					background-size:100%;
 					background-repeat: no-repeat;
 					background-attachment: fixed;
-					font-family:'Lato', sans-serif;
 				}	
+				
+				/*boxes with info code */
+				.box1{
+					font-style: courier;
+					background-color: black;
+					font-size: 150%;
+					color: white;
+					padding: 20px;
+					margin-top: 600px;
+					margin-bottom: 10px;
+					margin-left: 400px;
+					margin-right: 400px;
+					text-align: center;
+				} 
+				/* boxes with style */
+				#pp{
+					font-family: courier;
+				}
+								td, th {
+					border: 1px solid #dddddd;
+					text-align: left;
+					padding: 8px;
+					font-style: courier;
+				}
+				
+
+				tr:nth-child(even) {
+					background-color: #dddddd;
+				}
+                
+				
+				tr:nth-child(odd) {
+					background-color: #dddddd;
+				}
+				
+				.boxfaq1{
+					background-color: black;
+					font-size: 150%;
+					color: white;
+					padding: 20px;
+					margin-top: 100px;
+					margin-bottom: 10px;
+					margin-left: 400px;
+					margin-right: 400px;
+					text-align: center;
+				} 
 
 #navigation {
 	list-style-type: none;
@@ -14,7 +59,7 @@
 	background-color: #333;
 	overflow: hidden;
 	border: 1px solid #555;
-	
+	position: fixed;
 	
 }
 
@@ -51,8 +96,4 @@
 #navigation a:active{
 	background-color: #4CAF50;
 }			
-=======
-					background-attachment: fixed;
-					font-family: 'Lato', sans-serif;	
-				}				
->>>>>>> 63ac787696c471f3664b7449ab75912959a97288
+
