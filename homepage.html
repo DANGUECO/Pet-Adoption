@@ -1,17 +1,57 @@
 <!DOCTYPE html>
 <html>
 
+	<!-- This is the head-->
 
-	#This is the head
 	<head>
-		<title>Pet Rescue :)</title>
+		<title>PetRescue</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link rel="preconnect" href="https://fonts.gstatic.com"> 
 		<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,900;1,700&display=swap" rel="stylesheet">
+		
+		<!-- This will hold styling for the three types of text. -->
+		<style>
+			<!-- This produces the general style for each code. -->
+			.container {
+  				position: relative;
+  				text-align: center;
+  				color: white;
+				}
+
+			<!-- These are specific references to each text, incase we want to modify each line individually. -->
+
+			.firstline {
+  			position: absolute;
+  			top: 70px;
+  			left: 70px;
+			color: white;
+			}
+
+			.secondline {
+  			position: absolute;
+  			top: 60px;
+  			left: 60px;
+			color: white;
+			}
+
+			.thirdline {
+  			position: absolute;
+  			top: 50px;
+  			left: 50px;
+			color: white;
+			}
+
+		</style>
+
+		
 	</head>
 
 
-	#This is the body
+
+
+
+
+	<!-- This is the body -->
 	<body>
 		<div>
 				<ul id ="navigation">
@@ -22,46 +62,31 @@
 				</ul>
 		</div>
 
-								<!-- Who are we info -->
-			
-				<div class="box1">
-						<h2 id = "pp" >Who Are We?</h2>
-						<br>
-						<p id = "pp">Carshare is a company that is all for the customers. Treating customers with as much right as how  we refurbish and fix our cars. This business car sharing 
-						  services was created by Neve Hoyte (car and marketing
-						   expertise) and Wei Chan (E-commerce expertise). </p>
-				</div>
-						 <!--Carshare location info -->
-				
-				<div class="box1">
-						<h2 id = "pp" >Carshare Location:</h2>
-						<p id = "pp">Be careful on your way here.</p>
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6457900.701777195!2d152.34758448317191!3d-37.783668938486514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae2b77476c55%3A0xae00230e8cce473a!2sGoGet+CarShare!5e0!3m2!1sen!2snz!4v1565655166219!5m2!1sen!2snz" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-						
-						
-				</div>
-						 <!--Car share mission info -->
-				
-				<div class="box1">
-						<h2  id = "pp" >The Mission</h2>
-						<br>
-						<p  id = "pp" >This company aims to deliver the ease of exchanges between car owners. Our company aims to provide satisfaction towards any driver in search of a new style and car to seat and drive.
-						   We also have high regards to the support,reliable and safe exchange between car owners alike. Is there any any more questions you are in need of asking, 
-						   contact us or visit the FAQ page. Or if you are in really need of asking a fellow Carshare member, visit our employees at the Carshare company location below. Thank you. </p>
-						
-				</div>
-				
-						 <!-- Contact the company info -->
-				
-				<div class="box1">
-						<h2  id = "pp">Contact The Company</h2>
-						<br>
-						<p id = "pp" >If you need any further assistance, contact us at 0800-Carshare</p>
-						<p  id = "pp">If you seek an appointment, visit us at the location shown and ask for the people at the site from the list below.</p>
-						<p  id = "pp"> Thank you and enjoy your day</p>
-						
-				</div>
+		<!-- This takes care of the logo and positioning. -->
+
+  		<img src="logo.png" width="250" height="350" style="position:absolute; left:250px; top:250px;">
+
+		<!-- This creates a container filled with three types of text. --> 
+
+		<div class="container">
+			<div class="firstline">Care for me.</div>
+  			<div class="secondline">I'll care</div>
+  			<div class="thirdline">For you.</div>
+
+		</div>
+
+
+
+		
 	</body>
+
+
+
+
+
+
+
+
 
 
 </html>
